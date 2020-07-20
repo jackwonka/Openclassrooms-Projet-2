@@ -44,9 +44,8 @@ img{
     font-weight: 600;
 }
 .me{
-    padding: 40px 30px 30px 30px;
+    padding: 40px 30px 45rem 30px;
     text-align: justify;
-    padding-bottom: 42rem;
 }
 /* ----------Aside-Profil__Leisure-Icons---------- */
 
@@ -161,9 +160,6 @@ h2{
     .aside_photo{
         margin: 0px;
     }
-    .aside_profil{
-        font-size: 20px;
-    }
     .contact{
         padding: 0px 20px;
     }
@@ -223,13 +219,13 @@ h2{
         margin-left: 20px;
     }
     .experience, .footer{
-        font-size: 22px;
+        font-size: 21px;
     }
     .info_margin{
         margin-left: 11.5rem;
     }
     .info_margin1{
-        margin-left: 5.8em;
+        margin-left: 6em;
     }
     .recommandation2{
         margin-left: 15rem;
