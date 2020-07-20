@@ -206,9 +206,11 @@ h2{
     }
     .contact{
         padding: 10px 0px 10px 20px;
+        font-size: 20px;
     }
     .me{
         padding: 20px 20px 20px 20px;
+        font-size: 20px;
     }
     .leisure_icons i{
         font-size: 45px;
@@ -220,13 +222,13 @@ h2{
         margin-left: 20px;
     }
     .experience, .footer{
-        font-size: 25px;
+        font-size: 20px;
     }
     .info_margin{
-        margin-left: 12rem;
+        margin-left: 11.5rem;
     }
     .info_margin1{
-        margin-left: 5em;
+        margin-left: 6.4em;
     }
     .recommandation2{
         margin-left: 15rem;
