@@ -161,13 +161,14 @@ h2{
     .aside_photo{
         margin: 0px;
     }
+    .aside_profil{
+        font-size: 20px;
+    }
     .contact{
         padding: 0px 20px;
-        font-size: 25px;
     }
     .me{
         padding: 10px 20px 10px 20px;
-        font-size: 25px;
     }
     .section_main{
         margin: 10px 10px 10px 10px;
@@ -222,13 +223,13 @@ h2{
         margin-left: 20px;
     }
     .experience, .footer{
-        font-size: 20px;
+        font-size: 22px;
     }
     .info_margin{
         margin-left: 11.5rem;
     }
     .info_margin1{
-        margin-left: 6.4em;
+        margin-left: 5.8em;
     }
     .recommandation2{
         margin-left: 15rem;
