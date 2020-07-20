@@ -1,0 +1,237 @@
+/* ----------BODY---------- */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    font-family: "Montserra", sans-serif;
+    line-height: 1.5;
+    font-size: 16px; 
+}
+/* ----------ASIDE-PROFIL----------*/
+
+.aside_profil{
+    flex: 0;
+    background-color: orange;
+}
+.aside_profil h3{
+    background-color: #424242;
+    text-transform: uppercase;
+    color: orange;
+    text-align: center;
+    font-size: 30px;
+}
+/* ----------Aside-Photo---------- */
+
+.aside_photo{
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+    margin: 60px;
+}
+img{
+    height: 280px; 
+    width: 280px; 
+    border: 5px solid rgba(191,54,12,0.2);
+    border-radius: 50%; 
+}
+/* ----------Aside-Profil__Contact__Me---------- */
+
+.contact{
+    padding: 40px 0px 40px 30px;
+    font-weight: 600;
+}
+.me{
+    padding: 40px 30px 30px 30px;
+    text-align: justify;
+    padding-bottom: 42rem;
+}
+/* ----------Aside-Profil__Leisure-Icons---------- */
+
+ .leisure_icons{
+     display: flex;
+     justify-content:space-evenly;
+     height: 60px;
+     padding: 40px;
+ }
+
+.leisure_icons i{
+    display: block;
+    color: #424242;
+    text-align: center;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border: 2px solid;
+    border-radius: 50%;
+}
+/* ----------SECTION-MAIN---------- */
+
+.section_main{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 100px;
+
+}
+.section_main h3{
+    border-bottom: 2px solid orange;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 35px;
+    padding-bottom: 5px;
+}
+.section_main i{
+    color: orange;
+}
+.icons_title i{
+    margin-right: 40px;
+}
+/* ----------Header---------- */
+
+.header{
+    padding-bottom: 180px;
+}
+h1{
+    font-size: 80px;
+}
+h1 span{
+    color: orange;
+}
+h2 span{
+    border-bottom: 2px solid orange;
+    padding-bottom: 3px;
+}
+h2{
+    font-size: 35px;
+}
+/* ----------Experience----------*/
+
+.experience{
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.icon_dot{
+    font-size: 0.9rem;
+    padding-top: 0.5rem;
+}
+.icon{
+    font-size: 0.6rem;
+    padding-top: 0.5rem;
+    padding-left: 4px;
+}
+.city{
+    margin-left: 40px;
+}
+.info{
+    margin-left: 16%;
+    
+ }
+ .info_margin1{
+    margin-left: 5%;
+ }
+ .info_margin{
+     margin-left: 18%;
+ }
+ .info h4{
+    text-transform: uppercase;
+}
+/* ----------Footer---------- */
+
+.footer{
+    display: flex;
+    padding: 50px 0px 50px;
+}
+.recommandation2{
+    margin-left: 16rem;
+}
+ 
+/* ---------Responsive---------- */
+
+@media only screen and (max-width: 600px){
+
+    body{
+        flex-direction: column;
+        width: 100%;
+    }
+    .aside_photo{
+        margin: 0px;
+        
+    }
+    .contact{
+        padding: 0px 20px;
+    }
+    .me{
+        padding: 10px 20px 10px 20px;
+    }
+    .section_main{
+        margin: 10px 10px 10px 10px;
+    }
+    .header h1{
+        font-size: 60px;
+    }
+    .header h2{
+        font-size: 25px;
+    }
+    .info_margin{
+        margin-left: 5.7em;
+    }
+    .info_margin1{
+        margin-left: 4.2em;
+    }
+    .experience, .footer{
+        font-size: 20px;
+    }
+    .recommandation2{
+        margin-left: 20px;
+    }
+    .recommandation1{
+       margin-left: 35px;
+    }
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1024px){
+
+    body{
+        flex-direction: column;
+    }
+    .aside_photo{
+        margin: 0px;
+    }
+    .contact{
+        padding: 10px 0px 10px 20px;
+    }
+    .me{
+        padding: 20px 20px 20px 20px;
+    }
+    .leisure_icons i{
+        font-size: 45px;
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+    }
+    .section_main{
+        margin-left: 20px;
+    }
+    .experience, .footer{
+        font-size: 25px;
+    }
+    .info_margin{
+        margin-left: 12rem;
+    }
+    .info_margin1{
+        margin-left: 5em;
+    }
+    .recommandation2{
+        margin-left: 15rem;
+    }
+    .recommandation1{
+       margin-left: 35px;
+    }
+
+}
