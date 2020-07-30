@@ -1,189 +1,133 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="fr">
     <head>
-        <meta charset="utf-8">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Mon cv en site web</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
     </head>
         <body> 
-            <div class="aside_profil"> <!--premier bloc ASIDE_PROFIL qui contient les informations profil-->
-                <div class="aside_photo">
-                    <img src="me.jpg" alt="photo_profil">
-                </div>                                     
+            <aside><!--Bloc ASIDE qui contient les informations profil-->
+                <figure><img src="me.jpg" alt="photo_profil"></figure>                                     
                 <h3>contact</h3>
-                <div class="contact">
-                    <p>Adresse<br>
+                <p class="contact">
+                    Adresse<br>
                     Saint-lô, France<br>
                     <br>
                     Téléphone<br>
                     06 00 00 00 00<br>
                     <br>
-                    Email
-                    <a href="mailto:jesuispasla@gmail.com">jesuispasla@gmail.com</a><br>
+                    Email:
+                    <a href="mailto:jesuispasla@gmail.com">Jesuispasla@gmail.com</a><br>
                     <br>
-                    Site web
-                    stephane-lefrançois.github.io</p>
-                </div>
+                    Site web:
+                    stephane-lefrançois.github.io
+                </p>
                 <h3>à propos de moi</h3> 
-                <div class="me">
-                    <p>Toujours à la recherche de nouvelle technologie, de nouvelle connaissance, constamment dans l'apprentissage pour évoluer tout au long de ma vie personnelle et professionnelle.
-                        Mes atouts les plus prononcés sont la faciliter de m'adapter à toute situation, inventer / innover avec une personnalité créative.
-                        En pleine reconversion en tant que développeur web, très motivé à faire de votre site web le plus atypique et unique en son genre.
-                        Accessible et dynamique sur tous les supports numériques, tout en ayant une simplicité pour tout le monde.
-                    </p>
-                </div>
+                <p class="me">Toujours à la recherche de nouvelle technologie, de nouvelle connaissance, constamment dans l'apprentissage pour évoluer tout au long de ma vie personnelle et professionnelle.
+                    Mes atouts les plus prononcés sont la faciliter de m'adapter à toute situation, inventer / innover avec une personnalité créative.
+                    En pleine reconversion en tant que développeur web, très motivé à faire de votre site web le plus atypique et unique en son genre.
+                    Accessible et dynamique sur tous les supports numériques, tout en ayant une simplicité pour tout le monde.
+                </p>
                 <h3>loisirs</h3>
                 <div class="leisure_icons">
                     <i class="fas fa-gamepad"></i>
                     <i class="fas fa-campground"></i>
                     <i class="fas fa-comment"></i>
                 </div>
-            </div>
-            <div class="section_main"> <!--deuxième bloc qui contient mon titre / mon experience formation et pro + pied de page-->
-                <div class="header">
-                    <h1><span>LEFRANCOIS </span>STEPHANE</h1>
-                    <h2><span>Dével</span>oppeur web freelance</h2>
-                </div>
-                <div class="icons_title">
-                    <h3><i class="fas fa-graduation-cap"></i>FORMATIONS</h3>
-                </div>
-                <div class="experience">
-                    <div class="icon_dot">
-                        <i class="far fa-dot-circle"></i>
-                    </div>
-                    <div class="city">
-                        <p> 2020-2021<br>(poste actuel)</p>
-                        <p>Paris</p>
-                    </div>
-                    <div class="info_margin1">
+            </aside>
+            <main> <!--deuxième bloc SECTION qui contient mon titre / experience formation et pro + pied de page-->
+                <h1><span>LEFRANCOIS </span>STEPHANE</h1>
+                <h2><span>Dével</span>oppeur web freelance</h2>
+                <h3><i class="fas fa-graduation-cap"></i>FORMATIONS</h3>
+                <section>
+                    <i class="far fa-dot-circle"></i>
+                    <p class="date_city">2020-2021<br>Paris</p>
+                    <article>
                         <h4>Openclassrooms (Diplôme certifiant (Bac+2)</h4>
                         <p>Developpeur Web Junior</p>
-                        <p>HTML / CSS / JS / github </p>
-                    </div>
-                </div>
-                <div class="experience">
-                    <div class="icon">
-                        <i class="fas fa-circle"></i>
-                    </div>
-                    <div class="city">    
-                        <p>2017</p>
-                        <p>Saint-lô</p>
-                    </div>
-                    <div class="info_margin">   
+                        <p>HTML / CSS / Github </p>
+                    </article>    
+                </section>
+                <section>
+                    <i class="fas fa-circle"></i>
+                    <p class="date_city">2016-2017<br>Saint-lô</p>
+                    <article>   
                         <h4>Greta</h4>
                         <p>Bilan de compétence</p>
-                    </div>
-                </div>
-                <div class="experience">
-                    <div class="icon">
-                        <i class="fas fa-circle"></i>
-                    </div>
-                    <div class="city">
-                        <p>2015</p>
-                        <p>Saint-lô</p>
-                    </div>
-                    <div class="info_margin">  
+                    </article>
+                </section>
+                <section>
+                    <i class="fas fa-circle"></i>
+                    <p class="date_city">2014-2015<br>Saint-lô</p>
+                    <article>  
                         <h4>Espace Rabelais</h4>
                         <p>Centre d'orientation</p>
-                    </div>
-                </div>
-                <div class="experience">
-                    <div class="icon">
-                        <i class="fas fa-circle"></i>
-                    </div>
-                    <div class="city">
-                        <p>2010-2011</p>
-                        <p>Saint-lô</p>
-                    </div>
-                    <div class="info">
+                    </article>
+                </section>
+                <section>
+                    <i class="fas fa-circle"></i>
+                    <p class="date_city">2010-2011<br>Saint-lô</p>
+                    <article>
                         <h4>E'spoir CAP FORMATION</h4>
                         <p>Recherche de reconversion pro</p>
-                    </div>
-                </div>
-                <div class="experience">
-                    <div class="icon">
-                        <i class="fas fa-circle"></i>
-                    </div>
-                    <div class="city">
-                        <p>2003</p>
-                        <p>Coutances</p>
-                    </div>
-                    <div class="info">
+                    </article>
+                </section>    
+                <section>
+                    <i class="fas fa-circle"></i>
+                    <p class="date_city">2003<br>Coutances</p>
+                    <article>
                         <h4>Lycée professionnel la Roquelle</h4>
                         <p>C.A.P Peintre en Bâtiment</p>
-                    </div>
-                </div>
-                <div class="icons_title">
-                    <h3><i class="fas fa-briefcase"></i>EXPERIENCES PROFESSIONELLES</h3>
-                </div>
-                <div class="experience">
-                    <div class="icon_dot">
-                        <i class="far fa-dot-circle"></i>
-                    </div>
-                    <div class="city">
-                        <p>2019-2020</p>
-                        <p>Saint-lô</p>
-                    </div>
-                    <div class="info">
+                    </article>
+                </section>
+                <h3><i class="fas fa-briefcase"></i>EXPERIENCES PROFESSIONELLES</h3>
+                <section>
+                    <i class="far fa-dot-circle"></i>
+                    <p class="date_city">2019-2020<br>Saint-lô</p>
+                    <article>
                         <p>Auto-Entrepreneur Peintre Décorateur intérieur.</p>
-                    </div>
-                </div>
-                <div class="experience">
-                    <div class="icon">
-                        <i class="fas fa-circle"></i>
-                        </div>
-                    <div class="city">
-                        <p>2010-2018</p>
-                        <p>Paris</p>
-                    </div>
-                    <div class="info">
+                    </article>
+                </section>
+                <section>
+                    <i class="fas fa-circle"></i>
+                    <p class="date_city">2010-2018<br>Paris</p>
+                    <article>
                         <p>Mission: Enquêteur pour divers entreprises internationales.</p>
                         <p>Entreprises BTP: MPS Bodécor / Luc Dudouit /<br> 
                         Jean Marie Peinture / Durand / Déco 'styl / Ozenne / RD Peinture</p>
-                    </div>
-                </div>
-                <div class="experience">
-                    <div class="icon">
-                        <i class="fas fa-circle"></i>
-                    </div>
-                    <div class="city">
-                        <p>2009-2010</p>
-                        <p>Paris</p>
-                    </div>
-                    <div class="info">
+                    </article>    
+                </section>
+                <section>
+                    <i class="fas fa-circle"></i>
+                    <p class="date_city">2009-2010<br>Paris</p>
+                    <article>
                         <p>Maison tout corps d'état, peintre décorateur, magasinier, livreur, commercial.</p>
-                    </div>
-                </div>
-                <div class="experience">
-                    <div class="icon">
-                        <i class="fas fa-circle"></i>
-                    </div>
-                    <div class="city">
-                        <p>2003-2009</p>
-                        <p>Saint-lô</p>
-                    </div>
-                    <div class="info">
+                    </article>
+                </section>
+                <section>
+                    <i class="fas fa-circle"></i>
+                    <p class="date_city">2003-2009<br>Saint-lô</p>
+                    <article>
                         <p>Entreprise de peinture: Pichelot / Marigny</p>
-                    </div>
-                </div>
-                <div class="icons_title">
-                    <h3><i class="fas fa-pencil-alt"></i>RECOMMANDATIONS</h3>
-                </div>    
-                <div class="footer">
-                    <div class="recommandation1">
+                    </article>
+                </section>
+                <h3><i class="fas fa-pencil-alt"></i>RECOMMANDATIONS</h3>
+                <footer>
+                    <div class="recommandation">
                         <p><b>CORIAN VAGALLA</b></p>
                         <p>Directeur, Mon agence</p>
                         <p>Telephone: +33 XX XX XX XX</p>
                         <p>Email : name@email.com</p>
                     </div>
-                    <div class="recommandation2">
+                    <div class="recommandation1">
                         <p><b>JEAN CLAUDE VAN DAMME</b></p>
                         <p>Directeur, Mon agence</p>
                         <p>Telephone: +33 XX XX XX XX</p>
                         <p>Email : name@email.com</p>
                     </div>
-                </div>    
-            </div>
+                </footer>    
+            </main>
         </body>
     </html>

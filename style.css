@@ -10,22 +10,22 @@ body{
     line-height: 1.5;
     font-size: 16px; 
 }
-/* ----------ASIDE-PROFIL----------*/
+/* ----------ASIDE----------*/
 
-.aside_profil{
+aside{
     flex: 0;
-    background-color: orange;
+    background-color:rgb(91, 174, 241);
 }
-.aside_profil h3{
+aside h3{
     background-color: #424242;
     text-transform: uppercase;
-    color: orange;
+    color: rgb(221, 218, 51);
     text-align: center;
     font-size: 30px;
 }
-/* ----------Aside-Photo---------- */
+/* ----------Aside-Figure---------- */
 
-.aside_photo{
+figure{
     display: flex;
     justify-content: center;
     padding: 20px 20px 20px 20px;
@@ -34,28 +34,27 @@ body{
 img{
     height: 280px; 
     width: 280px; 
-    border: 5px solid rgba(191,54,12,0.2);
+    border: 5px solid rgb(221, 218, 51);
     border-radius: 50%; 
 }
-/* ----------Aside-Profil__Contact__Me---------- */
+/* ----------Aside-Contact-Me---------- */
 
 .contact{
     padding: 40px 0px 40px 30px;
     font-weight: 600;
 }
 .me{
-    padding: 40px 30px 52rem 30px;
+    padding: 40px 30px 45rem 30px;
     text-align: justify;
 }
-/* ----------Aside-Profil__Leisure-Icons---------- */
+/* ----------Aside-Leisure_Icons---------- */
 
  .leisure_icons{
      display: flex;
      justify-content:space-evenly;
      height: 60px;
      padding: 40px;
- }
-
+}
 .leisure_icons i{
     display: block;
     color: #424242;
@@ -67,86 +66,82 @@ img{
     border: 2px solid;
     border-radius: 50%;
 }
-/* ----------SECTION-MAIN---------- */
+/* ----------MAIN---------- */
 
-.section_main{
+main{
     display: flex;
     flex-direction: column;
     margin-left: 100px;
     margin-top: 100px;
+}
+/* ----------MAIN-TITLE---------- */
 
-}
-.section_main h3{
-    border-bottom: 2px solid orange;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 35px;
-    padding-bottom: 5px;
-}
-.section_main i{
-    color: orange;
-}
-.icons_title i{
-    margin-right: 40px;
-}
-/* ----------Header---------- */
-
-.header{
-    padding-bottom: 180px;
-}
 h1{
+    text-shadow:rgb(221, 218, 51) 3px 2px;
     font-size: 80px;
 }
 h1 span{
-    color: orange;
-}
-h2 span{
-    border-bottom: 2px solid orange;
-    padding-bottom: 3px;
+    color: rgb(91, 174, 241);
 }
 h2{
+    text-shadow:rgb(221, 218, 51) 3px 2px;
     font-size: 35px;
+    padding-bottom: 8rem;
 }
-/* ----------Experience----------*/
+h2 span{
+    border-bottom: 2px solid rgb(91, 174, 241);
+    padding-bottom: 3px;
+}
+main h3{
+    border-bottom: 2px solid rgb(91, 174, 241);
+    text-shadow:rgb(221, 218, 51) 3px 2px;
+    font-weight: 600;
+    font-size: 35px;
+    padding-top: 3rem; 
+}
+main i{
+    color: rgb(91, 174, 241);
+}
+h3 i{
+    margin-right: 40px;
+}
+/* ----------SECTION-DATE_CITY-ARTICLE----------*/
 
-.experience{
+section{
     display: flex;
     padding-top: 40px;
     padding-bottom: 40px;
 }
-.icon_dot{
+section .far{
     font-size: 0.9rem;
     padding-top: 0.5rem;
 }
-.icon{
+section .fas{
     font-size: 0.6rem;
     padding-top: 0.5rem;
     padding-left: 4px;
 }
-.city{
+.date_city{
     margin-left: 40px;
 }
-.info{
-    margin-left: 16%;
-    
- }
- .info_margin1{
-    margin-left: 8em;
- }
- .info_margin{
+article{
      margin-left: 10.8em;
  }
- .info h4{
+article h4{
     text-transform: uppercase;
 }
 /* ----------Footer---------- */
 
-.footer{
+footer{
     display: flex;
-    padding: 50px 0px 50px;
+    justify-content: space-between;
 }
-.recommandation2{
-    margin-left: 16rem;
+.recommandation1{
+    padding: 2rem;
+    margin-right: 17rem;
+}
+.recommandation{
+    padding-top: 2rem;
 }
  
 /* ---------Responsive---------- */
