@@ -124,12 +124,13 @@ h3 i{
 .date_city{
     margin-left: 40px;
 }
-.article{
+article{
      margin-left: 10.8em;
  }
-.article h4{
+article h4{
     text-transform: uppercase;
 }
+
 /* ----------Footer---------- */
 
 footer{
@@ -152,38 +153,43 @@ footer{
         flex-direction: column;
         width: 100%;
     }
-    .aside_photo{
-        margin: 0px;
+    figure{
+        padding: 0px;
     }
     .contact{
-        padding: 0px 20px;
+        padding: 1rem 0rem 1rem 1rem;
     }
     .me{
-        padding: 10px 20px 10px 20px;
+        padding: 1rem 1rem 1rem 1rem;
     }
-    .section_main{
-        margin: 10px 10px 10px 10px;
+    aside h3{
+        font-size: 30px;
     }
-    .header h1{
-        font-size: 60px;
+    main{
+        margin-left: 0px;
     }
-    .header h2{
-        font-size: 25px;
+    h1{
+        font-size: 45px;
+        padding: 0rem 0rem 2rem 1rem;
     }
-    .info_margin{
-        margin-left: 5.7em;
+    h2{
+        font-size: 30px;
+        padding-left: 1rem;
     }
-    .info_margin1{
-        margin-left: 4.2em;
+    main h3{
+        font-size: 30px;
     }
-    .experience, .footer{
-        font-size: 20px;
+    h3 i{
+        margin-right: 5px;
     }
-    .recommandation2{
-        margin-left: 20px;
+    .section{
+        flex-wrap: wrap;
     }
-    .recommandation1{
-       margin-left: 35px;
+    .date_city{
+        margin-left: 5px;
+    }
+    .article{
+        margin-left: 2px;
     }
 
 }
