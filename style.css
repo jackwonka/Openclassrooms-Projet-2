@@ -107,16 +107,16 @@ h3 i{
 }
 /* ----------SECTION-DATE_CITY-ARTICLE----------*/
 
-section{
+.section{
     display: flex;
     padding-top: 40px;
     padding-bottom: 40px;
 }
-section .far{
+.section .far{
     font-size: 0.9rem;
     padding-top: 0.5rem;
 }
-section .fas{
+.section .fas{
     font-size: 0.6rem;
     padding-top: 0.5rem;
     padding-left: 4px;
@@ -124,10 +124,10 @@ section .fas{
 .date_city{
     margin-left: 40px;
 }
-article{
+.article{
      margin-left: 10.8em;
  }
-article h4{
+.article h4{
     text-transform: uppercase;
 }
 /* ----------Footer---------- */
