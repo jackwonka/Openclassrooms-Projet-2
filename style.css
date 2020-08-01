@@ -44,7 +44,7 @@ img{
     font-weight: 600;
 }
 .me{
-    padding: 40px 30px 200px 30px;
+    padding: 40px 30px 450px 30px;
     text-align: justify;
 }
 /* ----------Aside-Leisure_Icons---------- */
@@ -106,25 +106,12 @@ section i{
 h3 i{
     margin-right: 40px;
 }
-/* ----------SECTION-DATE_CITY-ARTICLE----------*/
-
-.section .far{
-    font-size: 0.9rem;
-    padding-top: 0.5rem;
-}
-.section .fas{
-    font-size: 0.6rem;
-    padding-top: 0.5rem;
-    padding-left: 4px;
-}
-
 /*----------ARTICLE----------*/
 
 article{
     margin-left: 0px; 
 }
 article ul{
-    background-color: chartreuse;
     list-style-type: none;
 }
 article h4{
@@ -132,14 +119,24 @@ article h4{
 }
 .experience{
     display: flex;
-    justify-content: space-between;
-    
+    margin: 30px 0px 30px 0px;
 }
+.date_city{
+    margin: 0px 200px 0px 30px;
+}
+.experience .fas{
+    font-size: 10px;
+}
+.far{
+    margin-right: -5px;
+}
+
+
 /* ----------RECOMMANDATION---------- */
 .info{
     display: flex;
     justify-content: space-between;
-    margin: 2rem 20rem 0rem 0rem;
+    margin: 30px 300px 30px 0px
 }
 .info ul{
     list-style-type: none; 
